@@ -15,9 +15,9 @@ test('renders profile details correctly', () => {
   expect(screen.getByText('Loading...')).toBeInTheDocument();
 
   setTimeout(() => {
-    expect(screen.getByText('John Doe')).toBeInTheDocument();
+    expect(screen.getByText('Neelesh')).toBeInTheDocument();
     expect(screen.getByText('Phone: 123-456-7890')).toBeInTheDocument();
-    expect(screen.getByText('Email: john.doe@example.com')).toBeInTheDocument();
+    expect(screen.getByText('Email: neelesh.doe@gmail.com')).toBeInTheDocument();
     expect(screen.getByText('Home')).toBeInTheDocument();
     expect(screen.getByText('Office')).toBeInTheDocument();
     expect(screen.getByText('Facebook Profile')).toBeInTheDocument();
